@@ -44,7 +44,6 @@ function verifyToken(req, res, next) {
             }
             // Attach decoded data to the request if needed
             // req.user = decoded;
-            console.log("token Verifed");
             next();
         });
     }
